@@ -1,0 +1,16 @@
+# Hugo build output (generated on push by workflow; do not commit)
+/public/
+
+# Hugo cache and lock
+/resources/
+.hugo_build.lock
+
+# OS and editor
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Optional: uncomment if you use a local env file
+# .env
+# .env.local

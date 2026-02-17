@@ -1,0 +1,101 @@
+# Site settings
+baseURL = "https://www.jeremyweiland.com/"
+languageCode = "en-US"
+title = "Jeremy Weiland"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Cache dir for GitHub Actions (recommended for Hugo on GitHub Pages)
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Jeremy Weiland's homepage"
+  description = "Jeremy is a software developer, writer, musician, and activist in Richmond, VA."
+  shareImage = "images/screenshot.jpg"
+  twitterHandle = "jeremy6d"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2018 Jeremy Weiland"
+
+  # Section - Content
+  [params.content]
+    tagline = "Jeremy Weiland"
+    bio = "Jeremy is a software developer, writer, musician, and activist in Richmond, VA."
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "/images/jeremy.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Personal"
+
+      [[params.links.list1.link]]
+        text = "Band"
+        url = "https://www.element115.band"
+
+      [[params.links.list1.link]]
+        text = "Other music"
+        url = "https://soundcloud.com/jeremy6d"
+
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Professional"
+
+      [[params.links.list2.link]]
+        text = "Resume"
+        url = "/resume"
+
+      [[params.links.list2.link]]
+        text = "LinkedIn"
+        url = "https://linkedin.com/in/jeremyweiland/"
+
+      [[params.links.list2.link]]
+        text = "Github"
+        url = "https://github.com/jeremy6d"
+
+      # [[params.links.list2.link]]
+
+      # [[params.links.list2.link]]
+      #   text = "Dribbble"
+      #   url = "#"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Contact"
+
+      [[params.links.list3.link]]
+        text = "Send message"
+        url = "/contact"
+
+
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
