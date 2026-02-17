@@ -10,6 +10,10 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robots
   [caches.images]
     dir = ":cacheDir/images"
 
+# Optional: Google Analytics (theme uses this when set)
+# [services.googleAnalytics]
+#   id = "G-XXXXXXXXXX"
+
 [params]
 
   # Metadata for search engines and social sharing
