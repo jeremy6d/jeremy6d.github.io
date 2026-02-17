@@ -58,7 +58,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robots
 
       [[params.links.list1.link]]
         text = "Band"
-        url = "https://www.element115.band"
+        url = "https://stellarroserva.com"
 
       [[params.links.list1.link]]
         text = "Other music"
