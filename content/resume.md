@@ -21,7 +21,7 @@ Jeremy has specialized in web development for over a decade, architecting a wide
 
 ## Experience 
 * **Senior Software Engineer, Andros** (April 2024 - January 2026)
-Developed features for legacy Rails applicaPon focused on health professional credentialing. Supported and upgraded the legacy application. Mentored more junior engineers on Rails standards and practices. Provided consultation and direction on feature work, closely cooperating with product. Spearheaded investigations into bugs and anomalies across the Rails app and its other services.
+Developed features for legacy Rails application focused on health professional credentialing. Supported and upgraded the legacy application. Mentored more junior engineers on Rails standards and practices. Provided consultation and direction on feature work, closely cooperating with product. Spearheaded investigations into bugs and anomalies across the Rails app and its other services. Levelled up learning about Cursor and AI tools.
 * **Managing Software Engineer, Ad Hoc** (March 2023 - February 2024)
 60% of time spent writing software and pairing with more junior developers to level them up. Managed software developers at various levels of skill in practice and delivery excellence. Improving and maintaining relationships with contractors and government clients. Guided approaches to technical Ruby on Rails solutions at Department of Veterans Affairs. Authored reports for senior leadership to guide business and personnel decisions.
 * **Senior Software Engineer, Bold Penguin** (March 2020 - February 2023)
