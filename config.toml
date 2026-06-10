@@ -62,7 +62,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robots
 
       [[params.links.list1.link]]
         text = "Other music"
-        url = "https://soundcloud.com/jeremy6d"
+        url = "https://soundcloud.com/significator"
 
 
   # Links List #2
